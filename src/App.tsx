@@ -337,8 +337,8 @@ export default function App() {
               </div>
 
               {/* Secondary Images Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="rounded-2xl overflow-hidden shadow-xl border border-zinc-800 aspect-[4/3] md:aspect-auto">
+              <div className="flex flex-col gap-6">
+                <div className="rounded-2xl overflow-hidden shadow-xl border border-zinc-800 aspect-[4/3] md:aspect-video">
                   <img 
                     src="https://github.com/kidiee558/KraftKebap/blob/main/599809059_18328495297246911_5175760395138560062_n.jpg?raw=true" 
                     alt="Kraft Kebap Detal 1" 
@@ -346,8 +346,8 @@ export default function App() {
                     referrerPolicy="no-referrer" 
                   />
                 </div>
-                <div className="grid grid-cols-2 md:flex md:flex-col gap-6">
-                  <div className="rounded-2xl overflow-hidden shadow-xl border border-zinc-800 md:flex-1 aspect-square md:aspect-auto">
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="rounded-2xl overflow-hidden shadow-xl border border-zinc-800 aspect-square">
                     <img 
                       src="https://github.com/kidiee558/KraftKebap/blob/main/587421482_18328495270246911_3015336002903315320_n.jpg?raw=true" 
                       alt="Kraft Kebap Detal 2" 
@@ -355,7 +355,7 @@ export default function App() {
                       referrerPolicy="no-referrer" 
                     />
                   </div>
-                  <div className="rounded-2xl overflow-hidden shadow-xl border border-zinc-800 md:flex-1 aspect-square md:aspect-auto">
+                  <div className="rounded-2xl overflow-hidden shadow-xl border border-zinc-800 aspect-square">
                     <img 
                       src="https://github.com/kidiee558/KraftKebap/blob/main/586688613_18328495657246911_7344040469263774384_n.jpg?raw=true" 
                       alt="Kraft Kebap Detal 3" 
